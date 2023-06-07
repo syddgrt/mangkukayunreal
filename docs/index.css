@@ -1,0 +1,180 @@
+
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+body {
+  background: #c5a0bd;
+  background-image: url("gamaq/kucinH.png");
+  background-repeat: repeat;
+  background-size: 15%;
+  display: grid;
+  place-items: center;
+  height: 120vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-card{
+  margin-top: 100px;
+  border: 2px solid #000000;
+  background: #5e5e5e;
+  border-radius: 10px;
+  height: 4vh;
+  width: 13vw;
+  padding: 10px;
+
+}
+
+.card {
+  border: 2px solid #000000;
+  background: #e1d8e2;
+  background-image:url("gamaq/gambaqbengong.png");
+  background-size: 100%;
+  border-radius: 5px;
+  height: 102vh;
+  width: 75vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  overflow: hidden; 
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.card-content {
+  max-height: 1000px;
+}
+
+.card video {
+ 
+  margin-top: 5px;
+}
+
+.nested-card {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #d3cabe93;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  margin-bottom: 10px; 
+  display: inline-block;
+  width: 48%; 
+  vertical-align: top;
+  overflow: hidden;
+}
+.video-container video {
+  width: 48%;
+  height: 48%;
+}
+
+.video-title {
+  margin-top: 10px;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+  .card {
+    flex-direction: row-reverse;
+  }
+  .card img.birthday {
+    width: 100%;
+    max-width: 50vw;
+    max-height: unset;
+  }
+}
+
+@media only screen and (max-height: 640px) {
+  .card {
+    flex-direction: row-reverse;
+  }
+  .card img.birthday {
+    width: 100%;
+    max-width: 50vw;
+    max-height: unset;
+  }
+}
+
+img.birthday {
+  max-height: 40vh;
+}
+
+.text {
+  padding: 1em;
+}
+
+.muted {
+  opacity: 0.8;
+}
+
+.space {
+  height: 100px;
+}
+
+
+.modal {
+  display: none; 
+  position: center; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 50%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+
+.close {
+  
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
