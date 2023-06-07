@@ -5,7 +5,7 @@
 
 body {
   background: #c5a0bd;
-  background-image: url("../gamaq/kucinH.png");
+  background-image: url("kucinH.png");
   background-repeat: repeat;
   background-size: 15%;
   display: grid;
@@ -29,7 +29,7 @@ body {
 .card {
   border: 2px solid #000000;
   background: #e1d8e2;
-  background-image: url("../gamaq/gambaqbengong.png");
+  background-image: url("gambaqbengong.png");
   background-size: 100%;
   border-radius: 5px;
   height: 102vh;
