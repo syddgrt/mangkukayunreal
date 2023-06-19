@@ -1,5 +1,6 @@
 * {
   transition: all 0.2s ease-in-out;
+  box-sizing: border-box;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
   background-repeat: repeat;
   background-size: 15%;
   margin: 0;
+  padding: 20px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -16,8 +18,9 @@ body {
   border: 2px solid #000000;
   background: #5e5e5e;
   border-radius: 10px;
-  height: 70%;
-  width: 90%;
+  height: 40px;
+  width: 100%;
+  max-width: 200px;
   padding: 10px;
 }
 
@@ -28,7 +31,8 @@ body {
   background-size: cover;
   border-radius: 5px;
   min-height: 80vh;
-  width: 90%;
+  width: 100%;
+  max-width: 90vw;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
   display: flex;
@@ -70,7 +74,7 @@ body {
 }
 
 .video-container video {
-  width: 48%;
+  width: 100%;
   height: auto;
   margin-bottom: 10px;
 }
@@ -85,11 +89,13 @@ body {
     margin-top: 100px;
     height: 40px;
     width: 13vw;
+    max-width: 200px;
   }
 
   .card {
-    height: 100%;
-    width: 90%;
+    height: 80vh;
+    width: 75vw;
+    max-width: 1200px;
   }
 
   .card video {
@@ -138,6 +144,7 @@ body {
   margin: 5px auto;
   border: 1px solid #888;
   width: 80%;
+  max-width: 600px;
 }
 
 .close {
