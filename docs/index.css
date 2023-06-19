@@ -41,7 +41,7 @@ body {
   align-items: center;
   padding: 20px;
   margin: 20px;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .card h2 {
