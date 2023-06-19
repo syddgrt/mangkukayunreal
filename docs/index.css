@@ -25,8 +25,8 @@ body {
 
 .card {
   border: 2px solid #000000;
-  background: #e1d8e2;
-  background-image: url("gambaqbengong.JPG");
+  background: rgb(76,77,72);
+  background: linear-gradient(0deg, rgba(76,77,72,1) 0%, rgba(167,143,118,1) 56.99999999999999%);
   background-size: cover;
   border-radius: 5px;
   width: 90%;
