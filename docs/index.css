@@ -40,6 +40,15 @@ body {
   padding: 20px;
   margin: 20px;
   overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  overflow: hidden;
+  height: auto;
 }
 
 .card h2 {
@@ -47,6 +56,9 @@ body {
 }
 
 .card-content {
+   overflow-y: auto;
+  margin-top: 10px;
+  height: calc(100% - 20px);
 }
 
 .card video {
