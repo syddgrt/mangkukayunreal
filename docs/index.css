@@ -29,7 +29,7 @@ body {
   background: linear-gradient(0deg, rgba(76,77,72,1) 0%, rgba(167,143,118,1) 56.99999999999999%);
   background-size: cover;
   border-radius: 5px;
-  width: 90%;
+  width: 80%;
   height: 90%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -37,8 +37,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin: 20px;
   overflow: scroll;
   display: flex;
   flex-direction: column;
@@ -46,7 +44,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 20px;
-  margin: 20px;
+  margin: 0 auto;
   overflow: hidden;
   height: auto;
 }
