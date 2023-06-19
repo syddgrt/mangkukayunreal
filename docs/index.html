@@ -80,8 +80,11 @@
   <script>
     var allowedUsernames = ["Sunako", "sunako", "najah"];
 
+    document.body.style.cursor = "url('kucinterebang.gif'), auto";
+
     document.getElementById("usernameForm").addEventListener("submit", function(event) {
       event.preventDefault(); // Prevent form submission
+      
 
       var enteredUsername = document.getElementById("username").value;
 
